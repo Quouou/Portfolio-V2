@@ -75,7 +75,13 @@ export default function About() {
             <div>
               <p className="grid-headtext">Open to collab!</p>
               <p className="grid-subtext">Hit me up</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <a href="#Contact">
+                <Button
+                  name="Contact Me"
+                  isBeam
+                  containerClass="w-full mt-10"
+                />
+              </a>
             </div>
           </div>
         </div>
