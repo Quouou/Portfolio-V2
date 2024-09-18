@@ -29,7 +29,7 @@ export default function Navbar() {
             href="/"
             className="text-neutral-400 font-bold text-xl hover:text-white transition-colors"
           >
-            Adrian
+            Christopher
           </a>
 
           <button

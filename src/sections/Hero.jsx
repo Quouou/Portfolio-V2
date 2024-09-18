@@ -16,7 +16,12 @@ export default function Hero() {
       </div>
 
       <div className="w-full h-full absolute inset-0">
-        <Canvas shadows dpr={[1, 2]} camera={{ fov: 80 }}>
+        <Canvas
+          shadows
+          dpr={[1, 2]}
+          camera={{ fov: 80 }}
+          className="sm:h-[215px]"
+        >
           <Suspense fallback={<CanvasLoader />}>
             <Stage
               controls={ref}
