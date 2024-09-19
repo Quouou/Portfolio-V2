@@ -29,10 +29,9 @@ export default function About() {
               <p className="grid-subtext">
                 I&apos;m Christopher, a really curious developer who is looking
                 for opportunities to learn and grow. I&apos;m a fresh graduate
-                of Central Philippine University, and currently self-studying
-                new web technologies. Although I&apos;m still not as experienced
-                as other developers, I&apos;m willing to learn and adapt to new
-                technologies
+                and currently self-studying new web technologies. Although
+                I&apos;m still not as experienced as other developers, I&apos;m
+                willing to learn and adapt to new technologies
               </p>
             </div>
           </div>
