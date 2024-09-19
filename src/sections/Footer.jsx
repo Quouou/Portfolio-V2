@@ -7,6 +7,18 @@ export default function Footer() {
             <img src="/assets/github.svg" alt="github" className="w-6 h-6" />
           </a>
         </div>
+        <div className="social-icon">
+          <a
+            href="https://www.linkedin.com/in/christopher-benedicto-a481b32a4/"
+            target="_blank"
+          >
+            <img
+              src="/assets/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png-2636396724.png"
+              alt="linkedin"
+              className="w-6 h-6 "
+            />
+          </a>
+        </div>
       </div>
     </section>
   );
