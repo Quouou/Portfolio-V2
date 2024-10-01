@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from "sonner";
 
 export default function Contact() {
   const formRef = useRef();
@@ -40,11 +41,11 @@ export default function Contact() {
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       );
       setLoading(false);
-      alert("Message sent successfully");
+      toast.success("Message sent successfully");
       setForm({ name: "", email: "", message: "" });
     } catch (e) {
       console.log(e);
-      alert("Something went wrong");
+      toast.error("Failed to send message");
     }
   };
 

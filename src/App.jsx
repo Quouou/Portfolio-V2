@@ -1,3 +1,4 @@
+import { Toaster } from "sonner";
 import About from "./sections/About";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
@@ -9,6 +10,7 @@ export default function App() {
   return (
     <section id="home">
       <main className="max-w-7xl mx-auto">
+        <Toaster />
         <Navbar />
         <div className="w-full">
           <Hero />
