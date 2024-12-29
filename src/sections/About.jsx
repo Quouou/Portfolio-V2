@@ -25,7 +25,7 @@ export default function About() {
               className="w-full sm:h-[217px] h-fit object-contain"
             />
             <div>
-              <p className="grid-headtext">Hi!</p>
+              <p className="grid-headtext">Hii!</p>
               <p className="grid-subtext">
                 I&apos;m Christopher, a really curious developer who is looking
                 for opportunities to learn and grow. I&apos;m a fresh graduate
